@@ -1,0 +1,11 @@
+package facade;
+
+public abstract class Racquet {
+    int weight;
+
+    abstract void buildRacquet();
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+}
